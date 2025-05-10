@@ -1,8 +1,7 @@
 
-import { defineConfig } from "tailwindcss";
 import animatePlugin from "tailwindcss-animate";
 
-export default defineConfig({
+export default {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{js,jsx}",
@@ -94,4 +93,4 @@ export default defineConfig({
     }
   },
   plugins: [animatePlugin]
-});
+};
