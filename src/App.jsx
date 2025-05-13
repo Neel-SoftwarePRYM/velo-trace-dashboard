@@ -5,10 +5,10 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeProvider } from './context/ThemeContext';
 
 import Login from './pages/Login';
-import Dashboard from './pages/Dashboard';
-import Alerts from './pages/Alerts';
-import LiveMap from './pages/LiveMap';
-import TripHistory from './pages/TripHistory';
+import Dashboard from './pages/Dashboard.jsx';
+import Alerts from './pages/Alerts.jsx';
+import LiveMap from './pages/LiveMap.jsx';
+import TripHistory from './pages/TripHistory.jsx';
 import NotFound from "./pages/NotFound";
 
 // Protected route wrapper

@@ -1,9 +1,8 @@
-
 import { useState, useEffect } from 'react';
 import Topbar from '../components/Topbar';
 import Sidebar from '../components/Sidebar';
-import TripTable from '../components/TripTable';
-import TripCard from '../components/TripCard';
+import TripTable from '../components/TripTable.jsx';
+import TripCard from '../components/TripCard.jsx';
 import { useIsMobile } from '../hooks/use-mobile';
 
 // Mock trips data
